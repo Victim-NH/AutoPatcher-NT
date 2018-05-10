@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\bin\Debug\Autopatcher NT.exe.config
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\bin\Debug\Autopatcher NT.exe
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\bin\Debug\Autopatcher NT.pdb
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\bin\Debug\Autopatcher NT.xml
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\AutoPatcher NT.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\Autopatcher2.Form1.resources
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\Autopatcher2.Resources.resources
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\AutoPatcher NT.vbproj.GenerateResource.cache
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\AutoPatcher NT.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\Autopatcher NT.exe
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\Autopatcher NT.xml
+C:\Users\Administrator\source\Repos\WindowsApp1\WindowsApp1\obj\Debug\Autopatcher NT.pdb
