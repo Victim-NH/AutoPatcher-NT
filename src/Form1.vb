@@ -20,6 +20,6 @@
     End Sub
 
     Private Sub EXIT_Click(sender As Object, e As EventArgs) Handles Button4.Click
-
+        Appplication.Exit() 
     End Sub
 End Class
