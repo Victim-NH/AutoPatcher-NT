@@ -3,7 +3,19 @@
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If My.Computer.FileSystem.FileExists("Version.txt") Then
 
+        Else
+
+            My.Computer.Network.DownloadFile("http://YOUR LINK/patch/Version.txt", "Version.txt")
+            
+        End If
+        If My.Computer.FileSystem.FileExists("YOUR LAUNCHER.exe") Then
+
+        Else
+            My.Computer.Network.DownloadFile("http://YOUR LINK/patch/YOUR LAUNCHER.exe", "YOUR LAUNCHER.exe")
+
+        End If
     End Sub
 
     Private Sub START_Click(sender As Object, e As EventArgs) Handles Button1.Click
