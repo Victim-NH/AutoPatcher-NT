@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        MessageBox.Show("Welcome to NosTale Server")
     End Sub
 
     Private Sub START_Click(sender As Object, e As EventArgs) Handles Button1.Click
