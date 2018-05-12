@@ -1,4 +1,6 @@
-# AutoPatcher-NT
+# AutoPatcher - NT
 
 
-Prova 
+'This file is part of the NT Community. See AUTHORS file for Copyright information
+'This program is a not free software; you can't redistribute it and/or modify.
+'Copyright © 2018 NT Community
