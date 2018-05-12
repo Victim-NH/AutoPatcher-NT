@@ -3,6 +3,7 @@
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Check Version.txt Local and Download
         If My.Computer.FileSystem.FileExists("Version.txt") Then
 
         Else
@@ -10,6 +11,7 @@ Public Class Form1
             My.Computer.Network.DownloadFile("http://YOUR LINK/patch/Version.txt", "Version.txt")
             
         End If
+        'Check Launcher.exe Local and Download
         If My.Computer.FileSystem.FileExists("YOUR LAUNCHER.exe") Then
 
         Else
@@ -19,8 +21,9 @@ Public Class Form1
     End Sub
 
     Private Sub START_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Disable double pression button.
         Button1.Enabled = False
- 
+        'Check Version.txt Online and Local.
         Dim request As System.Net.HttpWebRequest = System.Net.HttpWebRequest.Create("http://YOUR LINK/Version.txt")
         Dim response As System.Net.HttpWebResponse = request.GetResponse()
 
