@@ -24,6 +24,8 @@ Public Class Form1
             My.Computer.Network.DownloadFile("http://YOUR LINK/patch/YOUR LAUNCHER.exe", "YOUR LAUNCHER.exe")
 
         End If
+  'Status Version
+  txtVersion.Text = My.Computer.FileSystem.ReadAllText("Version.txt")
     End Sub
 
     Private Sub START_Click(sender As Object, e As EventArgs) Handles Button1.Click
