@@ -2,7 +2,10 @@
 'This program is a not free software; you can't redistribute it and/or modify.
 'Copyright © 2018 NT Community.
  
-
+Imports System.IO.File
+Imports System.IO
+Imports System.Net
+Imports System.Uri
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
