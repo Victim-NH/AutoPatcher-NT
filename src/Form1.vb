@@ -15,7 +15,7 @@ Public Class Form1
         Else
 
             My.Computer.Network.DownloadFile("http://YOUR LINK/patch/Version.txt", "Version.txt")
-            
+            Timer1.Start()
         End If
         'Check Launcher.exe Local and Download
         If My.Computer.FileSystem.FileExists("YOUR LAUNCHER.exe") Then
@@ -49,7 +49,7 @@ Public Class Form1
             MessageBox.Show("Newer version is avaible")
             If My.Computer.FileSystem.FileExists("Version.txt") Then My.Computer.FileSystem.DeleteFile("Version.txt")
         My.Computer.Network.DownloadFile("https://YOUR LINK/patch/Version.txt", "Version.txt")
-
+            Timer1.Start()
         End If
     End Sub
 
